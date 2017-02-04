@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/werewolf-server.iml" filepath="$PROJECT_DIR$/.idea/modules/werewolf-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/werewolf-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/werewolf-server_main.iml" group="werewolf-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/werewolf-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/werewolf-server_test.iml" group="werewolf-server" />
+    </modules>
+  </component>
+</project>
