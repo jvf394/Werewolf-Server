@@ -2,8 +2,9 @@ group 'fedor.games.werewolf'
 version '0.1.0'
 
 apply plugin: 'java'
+apply plugin: 'idea'
 
-sourceCompatibility = 1.5
+//sourceCompatibility = 1.5
 
 repositories {
     mavenCentral()
