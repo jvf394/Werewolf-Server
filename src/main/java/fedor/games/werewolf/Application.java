@@ -11,7 +11,6 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource(value = {"classpath:application.properties"})
 public class Application {
 	public static void main (String args[]) {
-		System.out.println("Hello!");
 		SpringApplication.run(Application.class, args);
 	}
 }

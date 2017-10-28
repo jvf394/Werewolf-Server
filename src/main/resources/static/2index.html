@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Testing</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.2/sockjs.js"></script>
+<script>
+var sock = new SockJS('http://localhost:8080/handler');
+
+sock.onopen = function(){
+	console.log('open');
+}
+
+sock.onmessage = function(e) {
+	console.log('message', e.data);
+}
+
+sock.onclose = function() {
+	console.log('close');
+}
+function message() {
+    console.log('hi');
+    sock.send(document.getElementById('in').value);
+}
+</script>
+</head>
+<body>
+<input type="text" id="in">
+<button onclick="message()">Message</button>
+
+</body>
+</html>

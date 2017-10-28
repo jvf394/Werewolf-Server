@@ -107,3 +107,10 @@ $RECYCLE.BIN/
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
+# Log file
+*.log
+
+# Package Files #
+*.zip
+*.tar.gz
+*.rar
